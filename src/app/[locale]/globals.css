@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.progress-bar-container {
+    width: 100%;
+    height: 16px;
+    background-color: #e3e3e3;
+    border-radius: 8px;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  transition: width 1s ease;
+  border-radius: 8px;
+  height: 16px;
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar-time {
+  background-color: #4caf50;
+  transition: width 1s linear;
+  border-radius: 8px;
+  height: 16px;
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #45a049;
+}
+
+.btn-preset {
+  background-color: #e3e3e3;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btn-switch {
+  background-color: #e3e3e3;
+  width: 45%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.inventory-cell1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.inventory-table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 520px;
+}
+
+.inventory-cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #7e7e7e;
+  background-color: #eeeeee;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inventory-cell.selected {
+  background-color: #f2f2f2;
+}
+
+.inventory-cell-qty {
+  position: absolute;
+  bottom: -1px;
+  right: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black, 1px 1px 0px black;
+}
+
+.inventory-has-item {
+  background-color: #ccc;
+}
+
+.inventory-item-tooltip {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.side-panel-avatar {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 420px;
+  max-height: 350px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  overflow-y: scroll;
+}
+
+.item-container-avatar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  padding: 5px;
+}
+
+.item-avatar {
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.6);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.item-avatar.hover {
+  border-color: orange;
+}
+
+.item-container-rune {
+  max-height: 400px;
+  overflow-y: scroll;
+  background-color: #ccc;
+}
+
+.item-rune {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  margin: 8px;
+}
+.item-rune-img {
+  width: 75px;
+  height: 75px;
+  background-color: #d48a35;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.item-rune-img::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.item-rune-img::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  background: linear-gradient(135deg, #aaa, #ccc);
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.item-rune-desc {
+  background-color: #ccc;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@keyframes attackAnimation {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
