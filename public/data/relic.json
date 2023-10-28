@@ -1,0 +1,102 @@
+[
+    {
+        "rune_id": 1,
+        "rune_name": "Rune of Destruction",
+        "rune_desc": "Increased Physical Attack",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "physical_attack",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 2,
+        "rune_name": "Rune of Thirster",
+        "rune_desc": "Life Steal +%",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "life_steal",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 3,
+        "rune_name": "Rune of Protection",
+        "rune_desc": "Increased Defense",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "defense",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 4,
+        "rune_name": "Rune of Thorn",
+        "rune_desc": "Reflects Damage Taken",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "reflect",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 5,
+        "rune_name": "Rune of Endurance",
+        "rune_desc": "Increased More Hp +%",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "hp",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 6,
+        "rune_name": "Rune of Justice",
+        "rune_desc": "Increased Magic Attack",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "magic_attack",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 7,
+        "rune_name": "Rune of Precision",
+        "rune_desc": "Cooldown Recovery Speed +%",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "cooldown_skill",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 8,
+        "rune_name": "Rune of Clover",
+        "rune_desc": "Increased Critical Chance +%",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "critical_chance",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 9,
+        "rune_name": "Rune of Experienced",
+        "rune_desc": "Increased Gained More Exp +%",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "exp",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    },
+    {
+        "rune_id": 10,
+        "rune_name": "Rune of All",
+        "rune_desc": "Increased All Status +1",
+        "rune_img": "https://cdn.discordapp.com/attachments/1160654791739977758/1160657470469963857/rune_example.png?ex=65357580&is=65230080&hm=83142cf076877a3faac9e8cde298b61277451ab26e77fddbffd28c60b590f851&",
+        "rune_maxlevel": 100,
+        "rune_effect": "status",
+        "rune_base": 1,
+        "rune_multiple": 0.5
+    }
+  ]

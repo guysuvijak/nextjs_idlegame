@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "Slime",
+      "level": 1,
+      "minHp": 100,
+      "maxHp": 100,
+      "damage": 10,
+      "attack_speed": 3,
+      "exp": 5,
+      "drops": [
+        {
+          "item_id": 1,
+          "item_name": "Slime Jelly",
+          "drop_chance": 0.2
+        },
+        {
+          "item_id": 2,
+          "item_name": "Slime Hat",
+          "drop_chance": 0.1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Goblin",
+      "level": 2,
+      "minHp": 120,
+      "maxHp": 120,
+      "damage": 15,
+      "attack_speed": 2,
+      "exp": 7,
+      "drops": [
+        {
+          "item_id": 3,
+          "item_name": "Goblin Sword",
+          "drop_chance": 0.15
+        },
+        {
+          "item_id": 4,
+          "item_name": "Goblin Shield",
+          "drop_chance": 0.1
+        }
+      ]
+    }
+  ]

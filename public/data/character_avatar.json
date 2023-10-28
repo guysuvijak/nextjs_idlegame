@@ -1,0 +1,90 @@
+[
+    {
+        "avatar_id": 1,
+        "avatar_name": "Human",
+        "avatar_desc": "Default Character Avatar",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604553419440249/Icons_01-export.png?ex=65354438&is=6522cf38&hm=b2d5c47f52ad0499bbd4c2c5acca325b0ed998ad14590dca59f94a2e42801c37&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 2,
+        "avatar_name": "Slime",
+        "avatar_desc": "Defeat 1,000 Slimes",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604563456401459/Icons_04-export.png?ex=6535443a&is=6522cf3a&hm=24b4a2769b2c4b9f28bbf438746bf5d4ff895dc66a6f09953d3e0dfb6ff1befa&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 3,
+        "avatar_name": "Frog",
+        "avatar_desc": "Defeat 1,000 Frogs",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604572239265972/Icons_05-export.png?ex=6535443d&is=6522cf3d&hm=4b8554c5d2d7f57ebc20fae5cda6b238d2d556d32066a9dd6f305c47d538bb00&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 4,
+        "avatar_name": "Goblin",
+        "avatar_desc": "Defeat 1,000 Goblins",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604594523603004/Icons_08-export.png?ex=65354442&is=6522cf42&hm=fb070fa089ffc6a5d91fc9c004cc7dc77319fa9c65b5873066446fb432a77bdb&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 5,
+        "avatar_name": "Mimic",
+        "avatar_desc": "Defeat 1,000 Mimics",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604605361688676/Icons_20-export.png?ex=65354444&is=6522cf44&hm=0f1745fe159f8798306de515a68b8e453596a49086ce0855307b38c8f46c933a&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 6,
+        "avatar_name": "Skeleton Blue Frog",
+        "avatar_desc": "Defeat 1,000 Skeleton Blue Frogs",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604609849602118/Icons_24-export.png?ex=65354445&is=6522cf45&hm=3f2b9a15654781e6374203848d1be0b88bdf3d40bc9c36997611ede89e4c9246&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 7,
+        "avatar_name": "Stone Golem",
+        "avatar_desc": "Defeat 1,000 Stone Golems",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604614199103589/Icons_26-export.png?ex=65354447&is=6522cf47&hm=717ff2834421b5843cb33a1816daa32054e9813adb37799d8620eb506df0c78e&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 8,
+        "avatar_name": "Crow",
+        "avatar_desc": "Defeat 1,000 Crows",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604617550344252/Icons_28-export.png?ex=65354447&is=6522cf47&hm=2bb2086a5c746b455958d53811cd670e391d54647e4c6b960bc9b5ce14815fad&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 9,
+        "avatar_name": "Stone Pig",
+        "avatar_desc": "Defeat 1,000 Stone Pigs",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604624370278410/Icons_29-export.png?ex=65354449&is=6522cf49&hm=ad115a36861a589e76649d4b1cfe7bc6f50f49d3b3c17a9031f777de882769f0&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 10,
+        "avatar_name": "Berserker",
+        "avatar_desc": "Enchantment 1 time",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604630833705030/Icons_36-export.png?ex=6535444a&is=6522cf4a&hm=48404ba56906f8c0cb22f2cf09fa5f7c16b155ea7332689a02b3d80e5ba0a81a&",
+        "avatar_free": true
+    },
+    {
+        "avatar_id": 11,
+        "avatar_name": "Viper",
+        "avatar_desc": "Defeat 1,000 Vipers",
+        "avatar_grade": "D",
+        "avatar_img": "https://cdn.discordapp.com/attachments/1160604529432207370/1160604682184560820/Icons_37-export.png?ex=65354457&is=6522cf57&hm=d998121744cd928b6cd4af5031c9922f9abb4c5179121f0a06f40ec728d2b64c&",
+        "avatar_free": true
+    }
+]
